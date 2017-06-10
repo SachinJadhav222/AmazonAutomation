@@ -20,6 +20,7 @@ public class HomePage extends BaseMain {
     private WebElement submitSearch;
 
     @FindBy(xpath = "//span[@id=\"nav-search-submit-text\"]")
+
     private WebElement submitSearch1;
 
     @FindBy(css = "span[id=\"quartsPagelet\"]")
@@ -76,7 +77,8 @@ public class HomePage extends BaseMain {
         }
         return isTextPresent;
     }
-
-
+  public void addMessage(){
+  System.out.println("=====Welcome To Amazon.co.uk=======");
+  }
 
 }
