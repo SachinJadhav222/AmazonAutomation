@@ -6,6 +6,7 @@ import utility.BaseMain;
 
 import java.util.List;
 
+// This is Search result page showing result after user enter the product details
 
 public class SearchResultPage extends BaseMain {
 
