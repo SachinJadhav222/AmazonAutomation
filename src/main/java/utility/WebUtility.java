@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+// This is utility class were frequent used utility is kept
 
 public class WebUtility extends BaseMain {
     public static void sleepTime(int sleepTime){

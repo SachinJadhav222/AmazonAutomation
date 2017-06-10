@@ -6,6 +6,8 @@ import utility.BaseMain;
 
 import java.io.IOException;
 
+// This class will invoke Open and close Browser methods of the Base Main class
+// This use @Before and @ After annotations of the Cucumber API
 
 public class Hooks {
     BaseMain baseMain=new BaseMain();

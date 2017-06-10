@@ -12,7 +12,9 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-
+// This is Base Main Page
+// This page invoke webDriver
+// This page initialise Browser and invoke URL
 public class BaseMain {
     public static WebDriver driver;
     public BaseMain()  {

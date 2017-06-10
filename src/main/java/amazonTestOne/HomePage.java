@@ -4,6 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utility.BaseMain;
 
+//This is Home Page Of the Amazon.co.uk
+// All the element of required functionality are initialised using Page Factory
+//This code is pushed to GitHub Using Intelij Ideal  IDE
 
 public class HomePage extends BaseMain {
 
@@ -74,34 +77,6 @@ public class HomePage extends BaseMain {
         return isTextPresent;
     }
 
-/*
 
-    //a[id='nav-link-yourAccount'] span[class='nav-line-1'] signin button
-    //
 
-    @FindBy(css = "div[id=\"nav-flyout-ya-signin\"]span[class=\"nav-action-inner\"]")    //div[id='nav-flyout-ya-signin'] span[class='nav-action-inner']
-    private WebElement signIn_Button;
-
-    @FindBy(css = "a[id='nav-link-yourAccount'] span[class='nav-line-1']")
-    private WebElement checkSignInText;
-
-    public void click_SignIn_Button(){
-        System.out.println("===I clicked on SignIn Button===");
-       // WebUtility.sleepTime(2);
-      //  WebUtility.waitForElementToBeClickable(signIn_Button);
-        signIn_Button.click();
-    }
-
-    public boolean assertHomePage(String homePageName){
-        boolean isHomePage=false;
-        if(driver.getTitle().trim().contains(homePageName)){
-            System.out.println("====Home Page :"+homePageName+" =====");
-            isHomePage=true;
-        }
-        return isHomePage;
-    }
-   public void signInPage(){
-       System.out.println(checkSignInText.getText());
-   }
-*/
 }

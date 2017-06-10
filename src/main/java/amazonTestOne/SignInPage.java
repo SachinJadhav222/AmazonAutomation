@@ -4,6 +4,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utility.BaseMain;
 
+// This is sign in page where we need to enter the user name and password
+
 public class SignInPage extends BaseMain {
 
     @FindBy(css = "input[id='ap_email']")
