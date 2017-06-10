@@ -10,7 +10,7 @@ import utility.WebUtility;
 
 import java.io.IOException;
 
-// This is unti test class , where we test small functioanlity and elements before using them intoo step defination files
+// This is unit test class , where we test small functioanlity and elements before using them intoo step defination files
 
 
 public class SmokeTest {

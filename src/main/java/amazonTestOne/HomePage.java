@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utility.BaseMain;
 
-// Sachin Jadhav Made some changes to Home Page
 //This is Home Page Of the Amazon.co.uk
 // All the element of required functionality are initialised using Page Factory
 //This code is pushed to GitHub Using Intelij Ideal  IDE
