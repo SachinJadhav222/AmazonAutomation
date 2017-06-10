@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 import utility.BaseMain;
 import utility.WebUtility;
 
+// This is Product info page showing details of the searched product
 
 public class ProductInfoPage extends BaseMain {
     @FindBy(css = "select#native_dropdown_selected_size_name")

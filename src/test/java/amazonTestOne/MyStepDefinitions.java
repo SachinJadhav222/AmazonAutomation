@@ -7,6 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 
+// These are the step definations created from the feature file
 
 public class MyStepDefinitions {
     HomePage homePage=new HomePage();

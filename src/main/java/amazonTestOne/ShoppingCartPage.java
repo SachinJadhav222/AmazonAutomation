@@ -6,6 +6,7 @@ import utility.BaseMain;
 
 import java.util.prefs.BackingStoreException;
 
+// This page is checking price of the product in the cart
 
 public class ShoppingCartPage extends BaseMain {
 
