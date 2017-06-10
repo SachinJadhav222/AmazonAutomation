@@ -76,7 +76,12 @@ public class HomePage extends BaseMain {
         }
         return isTextPresent;
     }
+public void addMessage(){
 
+  System.out.println("=====Welcome To Amazon.co.uk=======");
+  System.out.println("=====Welcome To Amazon.co.uk=======");
+
+  }
 
 
 }
